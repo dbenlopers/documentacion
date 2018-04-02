@@ -14,3 +14,4 @@
 6. 	Sign in using the newly created user account and password by clicking on the link next to Users with AWS Management Console access can sign-in at...
 
     ![](images/SignIn.png)
+<div style="text-align: right"> <a href="CreateanAWSIoTThing.md">Create an AWS IoT Thing</a> </div>

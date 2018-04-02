@@ -8,21 +8,21 @@
 
     ![](images/EditDialog.png)
 5. With help of the Delete icon ![](images/DeleteIcon.png) remove the following macros
-  ~~~
+  ```
     BOARD_USE_VIRTUALCOM
     USB_STACK_USE_DEDICATED_RAM=1
     USB_STACK_FREERTOS
     USB_DEVICE_CONFIG_LPCIP3511HS=1
-  ~~~
+  ```
 6. Inside the MCU C Compiler tree, choose the **Includes** option. Look for the *"${workspace_loc:/${ProjName}/usb/device/source/lpcip3511}"* path then click remove.
 
     ![](images/USBPaths.png)
 7. Repeat the previous step for
-  ~~~
+  ```
     "${workspace_loc:/${ProjName}/usb/include}"
     "${workspace_loc:/${ProjName}/usb/device/include}"
     "${workspace_loc:/${ProjName}/usb/device/source}"
-  ~~~
+  ```
 8. Click **OK**. Then choose **No**.
 
     ![](images/RebuiltNO.png)
@@ -34,3 +34,6 @@
     ![](images/DeleteUSBUtilities.png)
 11. Remove the osa folder
 12. In source/main.c comment line #82
+
+    ![](images/CommentLine82.png)
+<div style="text-align: right"> <a href="ConfigureAWSCredentials.md">Configure your AWS Credentials</a> </div>

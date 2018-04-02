@@ -2,23 +2,16 @@
 2. If this is the first time you access to the AWS IoT console click on **Get started**
 
     ![](images/GetStarted.png)
-3. In the left navigation pane, choose **Secure**, and then choose **Policies**. If you do not have any policies registered in your account, the You don't have any policies yet page is displayed. If you see this page, choose to **Create a policy**
+3. In the left navigation pane, choose **Secure**, and then choose **Policies**. If you do not have any policies registered in your account, the *You don't have any policies yet* page is displayed. If you see this page, choose to **Create a policy**
 
     ![](images/CreateaPolicy.png)
 4. Type *myIoTPolicy* in the Name text box to identify your policy. In the Add statements section, click Advanced mode. Modify lines 5, 6, and 7 with the following content
-~~~
-{
-  "Effect": "Allow",
-  "Action": "iot:*",
-  "Resource": "*"
-}
-~~~
-Choose **Create**
-
+    
     ![](images/myIoTPolicy.png)
-5. In the left navigation pane, choose **Manage**, and then choose **Things**. If you do not have any IoT things registered in your account, the You don't have any things yet page is displayed. If you see this page, choose **Register a thing**. Otherwise, choose to **Create**
+5. Choose **Create**
+6. In the left navigation pane, choose **Manage**, and then choose **Things**. If you do not have any IoT things registered in your account, the You don't have any things yet page is displayed. If you see this page, choose **Register a thing**. Otherwise, choose to **Create**
 
-    ![](images/RegisterThing.png)
+    ![](images/RegisteraThing.png)
 6. On the Creating AWS IoT things page, choose to **Create a single thing**
 
     ![](images/CreateSingleThing.png)
@@ -34,3 +27,4 @@ Choose **Create**
 10. Select the checkbox next to *myIoTPolicy* and choose **Register Thing**
 
     ![](images/AttachPolicy.png)
+<div style="text-align: right"> <a href="CloneanAWSExampleProject.md">Clone an AWS Example Project</a> </div>

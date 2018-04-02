@@ -11,3 +11,4 @@
 5. Verify that project is loaded into the workspace as shown below.
 
     ![](images/VerifyProject.png)
+<div style="text-align: right"> <a href="DebugLinkUART.md">Change terminal to Debug Link UART</a> </div>

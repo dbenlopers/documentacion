@@ -25,9 +25,9 @@
 
     ![](images/StopDebugger.png)
 12. Open the “Device Manager” on your Windows PC.
-13.	 Open a Terminal emulator software (TeraTerm, PuTTY or similar) and connect to the COM port using any settings (it’s an USB-Virtual COM port).
+13.	 Open a Terminal emulator software (TeraTerm, PuTTY or similar) and connect to the COM port using any settings *it’s an USB-Virtual COM port.
 
-    ![](images/TerminalShadow.png)
+![](images/TerminalShadow.png)
 14.	 Verify that the Shadow of your thing is being updated in AWS IoT.
 
-    ![](images/ShadowUpdate.png)
+![](images/ShadowUpdate.png)
